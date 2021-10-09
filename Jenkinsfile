@@ -54,7 +54,7 @@ pipeline {
 					emailext(
 							mimeType: 'text/html',
 							
-							to: 'jainutkarsh@johndeere.com;',
+							to: 'utkshjn5@gmail.com;',
 
 							subject: "FAILED: Jenkins Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
 
